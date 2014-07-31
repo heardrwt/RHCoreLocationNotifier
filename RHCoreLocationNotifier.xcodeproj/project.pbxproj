@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137087FD18D80E5F00D7813C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137087FC18D80E5F00D7813C /* Foundation.framework */; };
+		137087FF18D80E5F00D7813C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137087FE18D80E5F00D7813C /* CoreGraphics.framework */; };
+		1370880118D80E5F00D7813C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1370880018D80E5F00D7813C /* UIKit.framework */; };
+		1370880718D80E5F00D7813C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1370880518D80E5F00D7813C /* InfoPlist.strings */; };
+		1370880918D80E5F00D7813C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370880818D80E5F00D7813C /* main.m */; };
+		1370880D18D80E5F00D7813C /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370880C18D80E5F00D7813C /* RHAppDelegate.m */; };
+		1370881818D80E6000D7813C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1370881718D80E6000D7813C /* Images.xcassets */; };
+		1370883718D813BC00D7813C /* RHManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370883518D813BC00D7813C /* RHManagerViewController.m */; };
+		1370883818D813BC00D7813C /* RHManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1370883618D813BC00D7813C /* RHManagerViewController.xib */; };
+		1370883C18D813E000D7813C /* RHLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370883A18D813E000D7813C /* RHLocationViewController.m */; };
+		1370883D18D813E000D7813C /* RHLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1370883B18D813E000D7813C /* RHLocationViewController.xib */; };
+		1370884018D817A100D7813C /* RHCoreLocationNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370883F18D817A100D7813C /* RHCoreLocationNotifier.m */; };
+		1370884418D8189F00D7813C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1370884318D8189F00D7813C /* MapKit.framework */; };
+		1370884618D818A900D7813C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1370884518D818A900D7813C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137087F918D80E5F00D7813C /* RHCoreLocationNotifierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHCoreLocationNotifierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137087FC18D80E5F00D7813C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		137087FE18D80E5F00D7813C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1370880018D80E5F00D7813C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1370880418D80E5F00D7813C /* RHCoreLocationNotifierDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHCoreLocationNotifierDemo-Info.plist"; sourceTree = "<group>"; };
+		1370880618D80E5F00D7813C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1370880818D80E5F00D7813C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1370880A18D80E5F00D7813C /* RHCoreLocationNotifierDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHCoreLocationNotifierDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1370880B18D80E5F00D7813C /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		1370880C18D80E5F00D7813C /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		1370881718D80E6000D7813C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1370883418D813BC00D7813C /* RHManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHManagerViewController.h; sourceTree = "<group>"; };
+		1370883518D813BC00D7813C /* RHManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHManagerViewController.m; sourceTree = "<group>"; };
+		1370883618D813BC00D7813C /* RHManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RHManagerViewController.xib; sourceTree = "<group>"; };
+		1370883918D813E000D7813C /* RHLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLocationViewController.h; sourceTree = "<group>"; };
+		1370883A18D813E000D7813C /* RHLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLocationViewController.m; sourceTree = "<group>"; };
+		1370883B18D813E000D7813C /* RHLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RHLocationViewController.xib; sourceTree = "<group>"; };
+		1370883E18D817A100D7813C /* RHCoreLocationNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCoreLocationNotifier.h; sourceTree = "<group>"; };
+		1370883F18D817A100D7813C /* RHCoreLocationNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCoreLocationNotifier.m; sourceTree = "<group>"; };
+		1370884318D8189F00D7813C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1370884518D818A900D7813C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137087F618D80E5F00D7813C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1370884618D818A900D7813C /* CoreLocation.framework in Frameworks */,
+				1370884418D8189F00D7813C /* MapKit.framework in Frameworks */,
+				137087FF18D80E5F00D7813C /* CoreGraphics.framework in Frameworks */,
+				1370880118D80E5F00D7813C /* UIKit.framework in Frameworks */,
+				137087FD18D80E5F00D7813C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137087F018D80E5F00D7813C = {
+			isa = PBXGroup;
+			children = (
+				1370884218D817A900D7813C /* RHCoreLocationNotifier */,
+				1370880218D80E5F00D7813C /* Demo */,
+				137087FB18D80E5F00D7813C /* Frameworks */,
+				137087FA18D80E5F00D7813C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137087FA18D80E5F00D7813C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137087F918D80E5F00D7813C /* RHCoreLocationNotifierDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137087FB18D80E5F00D7813C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1370884518D818A900D7813C /* CoreLocation.framework */,
+				1370884318D8189F00D7813C /* MapKit.framework */,
+				137087FC18D80E5F00D7813C /* Foundation.framework */,
+				137087FE18D80E5F00D7813C /* CoreGraphics.framework */,
+				1370880018D80E5F00D7813C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1370880218D80E5F00D7813C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1370880B18D80E5F00D7813C /* RHAppDelegate.h */,
+				1370880C18D80E5F00D7813C /* RHAppDelegate.m */,
+				1370883418D813BC00D7813C /* RHManagerViewController.h */,
+				1370883518D813BC00D7813C /* RHManagerViewController.m */,
+				1370883618D813BC00D7813C /* RHManagerViewController.xib */,
+				1370883918D813E000D7813C /* RHLocationViewController.h */,
+				1370883A18D813E000D7813C /* RHLocationViewController.m */,
+				1370883B18D813E000D7813C /* RHLocationViewController.xib */,
+				1370881718D80E6000D7813C /* Images.xcassets */,
+				1370880318D80E5F00D7813C /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		1370880318D80E5F00D7813C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1370880418D80E5F00D7813C /* RHCoreLocationNotifierDemo-Info.plist */,
+				1370880518D80E5F00D7813C /* InfoPlist.strings */,
+				1370880818D80E5F00D7813C /* main.m */,
+				1370880A18D80E5F00D7813C /* RHCoreLocationNotifierDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1370884218D817A900D7813C /* RHCoreLocationNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				1370883E18D817A100D7813C /* RHCoreLocationNotifier.h */,
+				1370883F18D817A100D7813C /* RHCoreLocationNotifier.m */,
+			);
+			path = RHCoreLocationNotifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137087F818D80E5F00D7813C /* RHCoreLocationNotifierDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1370882E18D80E6000D7813C /* Build configuration list for PBXNativeTarget "RHCoreLocationNotifierDemo" */;
+			buildPhases = (
+				137087F518D80E5F00D7813C /* Sources */,
+				137087F618D80E5F00D7813C /* Frameworks */,
+				137087F718D80E5F00D7813C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHCoreLocationNotifierDemo;
+			productName = RHCoreLocationNotifierDemo;
+			productReference = 137087F918D80E5F00D7813C /* RHCoreLocationNotifierDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137087F118D80E5F00D7813C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Richard Heard";
+			};
+			buildConfigurationList = 137087F418D80E5F00D7813C /* Build configuration list for PBXProject "RHCoreLocationNotifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137087F018D80E5F00D7813C;
+			productRefGroup = 137087FA18D80E5F00D7813C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137087F818D80E5F00D7813C /* RHCoreLocationNotifierDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137087F718D80E5F00D7813C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1370881818D80E6000D7813C /* Images.xcassets in Resources */,
+				1370880718D80E5F00D7813C /* InfoPlist.strings in Resources */,
+				1370883818D813BC00D7813C /* RHManagerViewController.xib in Resources */,
+				1370883D18D813E000D7813C /* RHLocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137087F518D80E5F00D7813C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1370880D18D80E5F00D7813C /* RHAppDelegate.m in Sources */,
+				1370884018D817A100D7813C /* RHCoreLocationNotifier.m in Sources */,
+				1370883718D813BC00D7813C /* RHManagerViewController.m in Sources */,
+				1370880918D80E5F00D7813C /* main.m in Sources */,
+				1370883C18D813E000D7813C /* RHLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1370880518D80E5F00D7813C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1370880618D80E5F00D7813C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1370882C18D80E6000D7813C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1370882D18D80E6000D7813C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1370882F18D80E6000D7813C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/RHCoreLocationNotifierDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/RHCoreLocationNotifierDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1370883018D80E6000D7813C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/RHCoreLocationNotifierDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/RHCoreLocationNotifierDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137087F418D80E5F00D7813C /* Build configuration list for PBXProject "RHCoreLocationNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1370882C18D80E6000D7813C /* Debug */,
+				1370882D18D80E6000D7813C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1370882E18D80E6000D7813C /* Build configuration list for PBXNativeTarget "RHCoreLocationNotifierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1370882F18D80E6000D7813C /* Debug */,
+				1370883018D80E6000D7813C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 137087F118D80E5F00D7813C /* Project object */;
+}
